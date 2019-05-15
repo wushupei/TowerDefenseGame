@@ -19,10 +19,10 @@ public class MainCity : Character
         base.Init();
         anim = GetComponent<Animation>();
     }
-    public override void Death(Pagoda murderer) //重新死亡方法
+    public override void Death(Pagoda murderer) //重写死亡方法
     {
         base.Death(murderer);
         anim.enabled = false;
-        GameMain.instance.gameOver = true;
+        GameMain.instance.GameOver();
     }
 }

@@ -19,9 +19,12 @@ public class GameData
     public void AddGold(int _gold)
     {
         gold += _gold;
+        GoldPanel.Instance.goldText.text = gold.ToString();
+        UpgradePanel.Instanc.RefreshInfo();
     }
     public void SubGold(int _gold)
     {
         gold -= _gold;
+        GoldPanel.Instance.goldText.text = gold.ToString();
     }
 }

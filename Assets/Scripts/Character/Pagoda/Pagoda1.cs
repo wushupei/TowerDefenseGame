@@ -27,4 +27,27 @@ public class Pagoda1 : Pagoda
             Instantiate(Arrow).InitBullet(
                 muzzle.position, muzzle.rotation, target, damage, arrowPool, this);
     }
+    //根据等级更新数值
+    public override void UpdateByGrade()
+    {
+        switch (grade)
+        {
+            case 0:
+                Refresh(10, 10, 30);
+                attactRange = 30; //升级攻击范围
+                break;
+            case 1:
+                Refresh(20, 15, 40);
+                attactRange = 35;
+                break;
+            case 2:
+                Refresh(30, 25, 50);
+                attactRange = 40;
+                break;
+            case 3:
+                Refresh(0, 40, 60);
+                attactRange = 45;
+                break;
+        }
+    }
 }

@@ -9,15 +9,18 @@ public enum EnemyState //状态机
 }
 public class Enemy : Character
 {
+    [HideInInspector]
+    public Transform enemyPool; //对象池
     Animator anim;
     Rigidbody rigid;
     [HideInInspector]
-    public EnemyState state;
-    [HideInInspector]
     public Transform hitPos; //打击点
-
     Transform eye; //眼睛:用于观测道路和攻击目标
+    [HideInInspector]
+    public EnemyState state;
     List<Collider> ways; //记录走过的路
+
+    public int gold;
 
     public override void Init()
     {
@@ -25,11 +28,18 @@ public class Enemy : Character
 
         anim = GetComponent<Animator>();
         rigid = GetComponent<Rigidbody>();
-        gameObject.layer = LayerMask.NameToLayer("Enemy"); //层设置为"Enemy"
-        state = EnemyState.forward;
         hitPos = ToolsMethod.Instance.FindChildByName(transform, "HitPos");
         eye = transform.Find("Eye");
-        ways = new List<Collider>();
+        ResetEnemy();
+    }
+    //重置敌人状态
+    public void ResetEnemy()
+    {
+        surHp = totalHp; //血量恢复
+        redHp.localScale = Vector3.one;
+        gameObject.layer = LayerMask.NameToLayer("Enemy"); //层设置为"Enemy"
+        state = EnemyState.forward;
+        ways = new List<Collider>(); //走过的路重置
     }
     private void Update()
     {
@@ -46,6 +56,8 @@ public class Enemy : Character
     Transform way;
     public float speed;
     MainCity target;
+    bool isFly; //是否被击飞(击飞状态时不能再被击飞)
+    bool isGround; //是否落地
     private void EnemyForward()
     {
         RaycastHit hit;
@@ -56,60 +68,32 @@ public class Enemy : Character
             anim.Play("attack");
             target = hit.collider.GetComponent<MainCity>();
         }
+        if (Physics.Raycast(eye.position, Vector3.down, out hit, 4.1f, LayerMask.GetMask("Way")))
+        {
+            way = hit.transform;
+            wayDir = Quaternion.LookRotation(way.forward);
 
-        //斜下方打射线检测前方道路
-        if (Physics.Raycast(eye.position, Quaternion.AngleAxis(30, transform.right) * transform.forward, out hit, 50, LayerMask.GetMask("Way")))
-        {
-            //Debug.DrawLine(eye.position, hit.point, Color.blue);
-            //发现未走过的道路,获取该道路,朝向该路通往的方向
-            if (!ways.Contains(hit.collider))
-            {
-                ways.Add(hit.collider);
-                way = hit.transform;
-                wayDir = Quaternion.LookRotation(way.forward);
-            }
-        }
-        else //前方没路了发射球形射线检测周围是否有路
-        {
-            Collider[] colliders = Physics.OverlapSphere(transform.position, 10, LayerMask.GetMask("Way"));
-            for (int i = 0; i < colliders.Length; i++)
-            {
-                //发现未走过的道路,获取该道路,朝向该路通往的方向
-                if (!ways.Contains(colliders[i]))
-                {
-                    way = colliders[i].transform;
-                    wayDir = Quaternion.LookRotation(way.forward);
-                    break;
-                }
-            }
-        }
-        //获取与脚下道路x轴上偏差值,好让自身走在路中间
-        float offset = 0;
-        if (way != null)
-        {
+            //获取与道路的偏移量
             Vector3 distance = transform.position - way.position;
-            offset = Vector3.Dot(distance, way.right.normalized);
+            float offset = Vector3.Dot(distance, way.right.normalized);
+
+            //往道路方向旋转和移动
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, wayDir, speed * 20 * Time.deltaTime);
+            transform.Translate(-offset * Time.deltaTime, 0, speed * Time.deltaTime);
+            isGround = true;
         }
-        //面向该路指向的方向前进
-        transform.rotation = Quaternion.RotateTowards(transform.rotation, wayDir, speed * 20 * Time.deltaTime);
-        transform.Translate(-offset * Time.deltaTime, 0, speed * Time.deltaTime);
+        else
+            isGround = false;
     }
-    //被击飞方法
-    bool isFly; //是否被击飞(处于击飞状态时不能再被击飞)
+    //被击飞方法(不可叠加)
     public void StrikeFly(float force)
     {
-        if (isFly == false) //未被击飞状态下才可以被击飞
+        //未被击飞状态下才可以被击飞,且在地上,才能被击飞
+        if (isFly == false && isGround == true)
         {
             isFly = true;
             rigid.AddForce(Vector3.up * force, ForceMode.Impulse);
-            float initSpeed = speed; //初始速度
-            speed = 0;
-            //0.5秒后恢复
-            Util.Instance.AddTimeTask(() =>
-            {
-                speed = initSpeed;
-                isFly = false;
-            }, 0.5f);
+            Util.Instance.AddTimeTask(() => isFly = false, 0.3f);
         }
     }
     //攻击方法(放在攻击动画事件中)
@@ -121,22 +105,19 @@ public class Enemy : Character
     }
 
     //死亡方法
-    public override void Death(Pagoda _murderer)
+    public override void Death(Pagoda murderer)
     {
-        base.Death(_murderer);
+        base.Death(murderer);
 
         gameObject.layer = LayerMask.NameToLayer("DeadBody"); //层设置为"DeadBody"
         state = EnemyState.death;
         anim.Play("death");
-        Util.Instance.AddTimeTask(DestroySelf, 5); //5秒后尸体消失
+        Util.Instance.AddTimeTask(() => transform.SetParent(enemyPool), 5); //5秒后返回对象池
+        GameData.Instance.AddGold(gold); //获得金币奖励
+        PagodaMenu.Instanc.RefreshMenu(); //刷新菜单
 
         //标记处决者
-        _murderer.PlayKill();
-    }
-    //尸体消失
-    private void DestroySelf()
-    {
-        Destroy(gameObject);
+        murderer.PlayKill(murderer.transform.position, "击杀", Color.red);
     }
     //void OnDrawGizmos() //设置辅助线
     //{

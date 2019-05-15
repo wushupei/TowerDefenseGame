@@ -13,7 +13,7 @@ public class Bullet : MonoBehaviour
     Pagoda pagoda; //防御塔信息
 
     //初始化
-    public void InitBullet(Vector3 position, Quaternion rotation, Enemy _target, float _damage, Transform _pool,Pagoda _pagoda)
+    public void InitBullet(Vector3 position, Quaternion rotation, Enemy _target, float _damage, Transform _pool, Pagoda _pagoda)
     {
         transform.SetParent(null);
         transform.position = position;
@@ -38,7 +38,8 @@ public class Bullet : MonoBehaviour
                 //到达有效范围,调用目标受伤方法,成为目标子物体(插在目标身上)
                 if (Vector3.Distance(target.hitPos.position, transform.position) <= 1)
                 {
-                    target.Damage(damage,pagoda); //拿取防御塔信息
+                    target.Damage(damage, pagoda); //拿取防御塔信息
+                    pagoda.PlayKill(target.transform.position, (-damage).ToString(), Color.blue);
                     transform.SetParent(target.hitPos);
                 }
             }

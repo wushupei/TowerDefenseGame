@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameObjectPool
 {
     private static GameObjectPool _Instance;
-    public static GameObjectPool Instance 
+    public static GameObjectPool Instance
     {
         get
         {
@@ -15,9 +15,14 @@ public class GameObjectPool
         }
     }
     //用于保存所有对象池
-    public Dictionary<string, Transform> poolDict = new Dictionary<string, Transform>();
+    public Dictionary<string, Transform> poolDict;
+    //初始化
+    public void Init()
+    {
+        poolDict = new Dictionary<string, Transform>();
+    }
     //获取对象池
-    public Transform GetPool(string poolName) 
+    public Transform GetPool(string poolName)
     {
         if (poolDict.ContainsKey(poolName))
             return poolDict[poolName];
