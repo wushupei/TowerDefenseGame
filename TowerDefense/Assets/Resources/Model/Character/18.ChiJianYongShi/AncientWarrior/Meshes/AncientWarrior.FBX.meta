@@ -1,0 +1,334 @@
+fileFormatVersion: 2
+guid: 072d708394f500c4c8b9e769ecf0d295
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: AncientWarrior Bip01
+    100004: AncientWarrior BODY
+    100006: AncientWarrior Bone01
+    100008: AncientWarrior Bone02
+    100010: AncientWarrior Bone03
+    100012: AncientWarrior Bone04
+    100014: AncientWarrior Bone05
+    100016: AncientWarrior Bone06
+    100018: AncientWarrior Bone07
+    100020: AncientWarrior Bone08
+    100022: AncientWarrior EYE L
+    100024: AncientWarrior EYE R
+    100026: AncientWarrior Footsteps
+    100028: AncientWarrior Head
+    100030: AncientWarrior HeadNub
+    100032: AncientWarrior L Calf
+    100034: AncientWarrior L Clavicle
+    100036: AncientWarrior L Elbow
+    100038: AncientWarrior L Finger0
+    100040: AncientWarrior L Finger01
+    100042: AncientWarrior L Finger02
+    100044: AncientWarrior L Finger0Nub
+    100046: AncientWarrior L Finger1
+    100048: AncientWarrior L Finger11
+    100050: AncientWarrior L Finger12
+    100052: AncientWarrior L Finger1Nub
+    100054: AncientWarrior L Finger2
+    100056: AncientWarrior L Finger21
+    100058: AncientWarrior L Finger22
+    100060: AncientWarrior L Finger2Nub
+    100062: AncientWarrior L Finger3
+    100064: AncientWarrior L Finger31
+    100066: AncientWarrior L Finger32
+    100068: AncientWarrior L Finger3Nub
+    100070: AncientWarrior L Finger4
+    100072: AncientWarrior L Finger41
+    100074: AncientWarrior L Finger42
+    100076: AncientWarrior L Finger4Nub
+    100078: AncientWarrior L Foot
+    100080: AncientWarrior L Forearm
+    100082: AncientWarrior L Hand
+    100084: AncientWarrior L Knee
+    100086: AncientWarrior L Shoulder
+    100088: AncientWarrior L Thigh
+    100090: AncientWarrior L Toe0
+    100092: AncientWarrior L Toe0Nub
+    100094: AncientWarrior L UpperArm
+    100096: AncientWarrior Neck
+    100098: AncientWarrior Pelvis
+    100100: AncientWarrior R Calf
+    100102: AncientWarrior R Clavicle
+    100104: AncientWarrior R Elbow
+    100106: AncientWarrior R Finger0
+    100108: AncientWarrior R Finger01
+    100110: AncientWarrior R Finger02
+    100112: AncientWarrior R Finger0Nub
+    100114: AncientWarrior R Finger1
+    100116: AncientWarrior R Finger11
+    100118: AncientWarrior R Finger12
+    100120: AncientWarrior R Finger1Nub
+    100122: AncientWarrior R Finger2
+    100124: AncientWarrior R Finger21
+    100126: AncientWarrior R Finger22
+    100128: AncientWarrior R Finger2Nub
+    100130: AncientWarrior R Finger3
+    100132: AncientWarrior R Finger31
+    100134: AncientWarrior R Finger32
+    100136: AncientWarrior R Finger3Nub
+    100138: AncientWarrior R Finger4
+    100140: AncientWarrior R Finger41
+    100142: AncientWarrior R Finger42
+    100144: AncientWarrior R Finger4Nub
+    100146: AncientWarrior R Foot
+    100148: AncientWarrior R Forearm
+    100150: AncientWarrior R Hand
+    100152: AncientWarrior R Knee
+    100154: AncientWarrior R Shoulder
+    100156: AncientWarrior R Thigh
+    100158: AncientWarrior R Toe0
+    100160: AncientWarrior R Toe0Nub
+    100162: AncientWarrior R UpperArm
+    100164: AncientWarrior Spine
+    100166: AncientWarrior Spine1
+    100168: AncientWarrior Sword Bone
+    100170: AncientWarrior talk chin
+    100172: AncientWarrior talk lower lip01
+    100174: AncientWarrior talk lower lip02
+    100176: AncientWarrior talk mouth l01
+    100178: AncientWarrior talk mouth l02
+    100180: AncientWarrior talk mouth r01
+    100182: AncientWarrior talk mouth r02
+    100184: AncientWarrior talk upper lip01
+    100186: AncientWarrior talk upper lip02
+    100188: AncientWarrior TEETH
+    100190: AncientWarrior X_l01
+    100192: AncientWarrior X_l02
+    100194: AncientWarrior X_r01
+    100196: AncientWarrior X_r02
+    100198: AncientWarrior Z_l01
+    100200: AncientWarrior Z_l02
+    100202: AncientWarrior Z_r01
+    100204: AncientWarrior Z_r02
+    100206: Sword
+    100208: AncientWarrior EYE L Bone
+    100210: AncientWarrior EYE R Bone
+    400000: //RootNode
+    400002: AncientWarrior Bip01
+    400004: AncientWarrior BODY
+    400006: AncientWarrior Bone01
+    400008: AncientWarrior Bone02
+    400010: AncientWarrior Bone03
+    400012: AncientWarrior Bone04
+    400014: AncientWarrior Bone05
+    400016: AncientWarrior Bone06
+    400018: AncientWarrior Bone07
+    400020: AncientWarrior Bone08
+    400022: AncientWarrior EYE L
+    400024: AncientWarrior EYE R
+    400026: AncientWarrior Footsteps
+    400028: AncientWarrior Head
+    400030: AncientWarrior HeadNub
+    400032: AncientWarrior L Calf
+    400034: AncientWarrior L Clavicle
+    400036: AncientWarrior L Elbow
+    400038: AncientWarrior L Finger0
+    400040: AncientWarrior L Finger01
+    400042: AncientWarrior L Finger02
+    400044: AncientWarrior L Finger0Nub
+    400046: AncientWarrior L Finger1
+    400048: AncientWarrior L Finger11
+    400050: AncientWarrior L Finger12
+    400052: AncientWarrior L Finger1Nub
+    400054: AncientWarrior L Finger2
+    400056: AncientWarrior L Finger21
+    400058: AncientWarrior L Finger22
+    400060: AncientWarrior L Finger2Nub
+    400062: AncientWarrior L Finger3
+    400064: AncientWarrior L Finger31
+    400066: AncientWarrior L Finger32
+    400068: AncientWarrior L Finger3Nub
+    400070: AncientWarrior L Finger4
+    400072: AncientWarrior L Finger41
+    400074: AncientWarrior L Finger42
+    400076: AncientWarrior L Finger4Nub
+    400078: AncientWarrior L Foot
+    400080: AncientWarrior L Forearm
+    400082: AncientWarrior L Hand
+    400084: AncientWarrior L Knee
+    400086: AncientWarrior L Shoulder
+    400088: AncientWarrior L Thigh
+    400090: AncientWarrior L Toe0
+    400092: AncientWarrior L Toe0Nub
+    400094: AncientWarrior L UpperArm
+    400096: AncientWarrior Neck
+    400098: AncientWarrior Pelvis
+    400100: AncientWarrior R Calf
+    400102: AncientWarrior R Clavicle
+    400104: AncientWarrior R Elbow
+    400106: AncientWarrior R Finger0
+    400108: AncientWarrior R Finger01
+    400110: AncientWarrior R Finger02
+    400112: AncientWarrior R Finger0Nub
+    400114: AncientWarrior R Finger1
+    400116: AncientWarrior R Finger11
+    400118: AncientWarrior R Finger12
+    400120: AncientWarrior R Finger1Nub
+    400122: AncientWarrior R Finger2
+    400124: AncientWarrior R Finger21
+    400126: AncientWarrior R Finger22
+    400128: AncientWarrior R Finger2Nub
+    400130: AncientWarrior R Finger3
+    400132: AncientWarrior R Finger31
+    400134: AncientWarrior R Finger32
+    400136: AncientWarrior R Finger3Nub
+    400138: AncientWarrior R Finger4
+    400140: AncientWarrior R Finger41
+    400142: AncientWarrior R Finger42
+    400144: AncientWarrior R Finger4Nub
+    400146: AncientWarrior R Foot
+    400148: AncientWarrior R Forearm
+    400150: AncientWarrior R Hand
+    400152: AncientWarrior R Knee
+    400154: AncientWarrior R Shoulder
+    400156: AncientWarrior R Thigh
+    400158: AncientWarrior R Toe0
+    400160: AncientWarrior R Toe0Nub
+    400162: AncientWarrior R UpperArm
+    400164: AncientWarrior Spine
+    400166: AncientWarrior Spine1
+    400168: AncientWarrior Sword Bone
+    400170: AncientWarrior talk chin
+    400172: AncientWarrior talk lower lip01
+    400174: AncientWarrior talk lower lip02
+    400176: AncientWarrior talk mouth l01
+    400178: AncientWarrior talk mouth l02
+    400180: AncientWarrior talk mouth r01
+    400182: AncientWarrior talk mouth r02
+    400184: AncientWarrior talk upper lip01
+    400186: AncientWarrior talk upper lip02
+    400188: AncientWarrior TEETH
+    400190: AncientWarrior X_l01
+    400192: AncientWarrior X_l02
+    400194: AncientWarrior X_r01
+    400196: AncientWarrior X_r02
+    400198: AncientWarrior Z_l01
+    400200: AncientWarrior Z_l02
+    400202: AncientWarrior Z_r01
+    400204: AncientWarrior Z_r02
+    400206: Sword
+    400208: AncientWarrior EYE L Bone
+    400210: AncientWarrior EYE R Bone
+    2300000: AncientWarrior EYE L
+    2300002: AncientWarrior EYE R
+    2300004: AncientWarrior L Elbow
+    2300006: AncientWarrior L Knee
+    2300008: AncientWarrior L Shoulder
+    2300010: AncientWarrior R Elbow
+    2300012: AncientWarrior R Knee
+    2300014: AncientWarrior R Shoulder
+    3300000: AncientWarrior EYE L
+    3300002: AncientWarrior EYE R
+    3300004: AncientWarrior L Elbow
+    3300006: AncientWarrior L Knee
+    3300008: AncientWarrior L Shoulder
+    3300010: AncientWarrior R Elbow
+    3300012: AncientWarrior R Knee
+    3300014: AncientWarrior R Shoulder
+    4300000: AncientWarrior BODY
+    4300002: AncientWarrior EYE R
+    4300004: AncientWarrior EYE L
+    4300006: AncientWarrior L Elbow
+    4300008: AncientWarrior L Shoulder
+    4300010: AncientWarrior R Elbow
+    4300012: AncientWarrior R Shoulder
+    4300014: AncientWarrior L Knee
+    4300016: AncientWarrior R Knee
+    4300018: AncientWarrior TEETH
+    4300020: Sword
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: AncientWarrior BODY
+    13700002: AncientWarrior TEETH
+    13700004: Sword
+    13700006: AncientWarrior EYE L
+    13700008: AncientWarrior EYE R
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

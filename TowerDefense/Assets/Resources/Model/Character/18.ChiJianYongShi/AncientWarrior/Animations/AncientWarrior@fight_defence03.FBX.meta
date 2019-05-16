@@ -1,0 +1,673 @@
+fileFormatVersion: 2
+guid: b5ae7fb5bb1dde743b34fd4220567416
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: AncientWarrior Bip01
+    100002: AncientWarrior Bone01
+    100004: AncientWarrior Bone02
+    100006: AncientWarrior Bone03
+    100008: AncientWarrior Bone04
+    100010: AncientWarrior Bone05
+    100012: AncientWarrior Bone06
+    100014: AncientWarrior Bone07
+    100016: AncientWarrior Bone08
+    100018: AncientWarrior EYE L Bone
+    100020: AncientWarrior EYE R Bone
+    100022: AncientWarrior Head
+    100024: AncientWarrior HeadNub
+    100026: AncientWarrior L Calf
+    100028: AncientWarrior L Clavicle
+    100030: AncientWarrior L Finger0
+    100032: AncientWarrior L Finger01
+    100034: AncientWarrior L Finger02
+    100036: AncientWarrior L Finger0Nub
+    100038: AncientWarrior L Finger1
+    100040: AncientWarrior L Finger11
+    100042: AncientWarrior L Finger12
+    100044: AncientWarrior L Finger1Nub
+    100046: AncientWarrior L Finger2
+    100048: AncientWarrior L Finger21
+    100050: AncientWarrior L Finger22
+    100052: AncientWarrior L Finger2Nub
+    100054: AncientWarrior L Finger3
+    100056: AncientWarrior L Finger31
+    100058: AncientWarrior L Finger32
+    100060: AncientWarrior L Finger3Nub
+    100062: AncientWarrior L Finger4
+    100064: AncientWarrior L Finger41
+    100066: AncientWarrior L Finger42
+    100068: AncientWarrior L Finger4Nub
+    100070: AncientWarrior L Foot
+    100072: AncientWarrior L Forearm
+    100074: AncientWarrior L Hand
+    100076: AncientWarrior L Thigh
+    100078: AncientWarrior L Toe0
+    100080: AncientWarrior L Toe0Nub
+    100082: AncientWarrior L UpperArm
+    100084: AncientWarrior Neck
+    100086: AncientWarrior Pelvis
+    100088: AncientWarrior R Calf
+    100090: AncientWarrior R Clavicle
+    100092: AncientWarrior R Finger0
+    100094: AncientWarrior R Finger01
+    100096: AncientWarrior R Finger02
+    100098: AncientWarrior R Finger0Nub
+    100100: AncientWarrior R Finger1
+    100102: AncientWarrior R Finger11
+    100104: AncientWarrior R Finger12
+    100106: AncientWarrior R Finger1Nub
+    100108: AncientWarrior R Finger2
+    100110: AncientWarrior R Finger21
+    100112: AncientWarrior R Finger22
+    100114: AncientWarrior R Finger2Nub
+    100116: AncientWarrior R Finger3
+    100118: AncientWarrior R Finger31
+    100120: AncientWarrior R Finger32
+    100122: AncientWarrior R Finger3Nub
+    100124: AncientWarrior R Finger4
+    100126: AncientWarrior R Finger41
+    100128: AncientWarrior R Finger42
+    100130: AncientWarrior R Finger4Nub
+    100132: AncientWarrior R Foot
+    100134: AncientWarrior R Forearm
+    100136: AncientWarrior R Hand
+    100138: AncientWarrior R Thigh
+    100140: AncientWarrior R Toe0
+    100142: AncientWarrior R Toe0Nub
+    100144: AncientWarrior R UpperArm
+    100146: AncientWarrior Spine
+    100148: AncientWarrior Spine1
+    100150: AncientWarrior Sword Bone
+    100152: AncientWarrior talk chin
+    100154: AncientWarrior talk lower lip01
+    100156: AncientWarrior talk lower lip02
+    100158: AncientWarrior talk mouth l01
+    100160: AncientWarrior talk mouth l02
+    100162: AncientWarrior talk mouth r01
+    100164: AncientWarrior talk mouth r02
+    100166: AncientWarrior talk upper lip01
+    100168: AncientWarrior talk upper lip02
+    100170: AncientWarrior X_l01
+    100172: AncientWarrior X_l02
+    100174: AncientWarrior X_r01
+    100176: AncientWarrior X_r02
+    100178: AncientWarrior Z_l01
+    100180: AncientWarrior Z_l02
+    100182: AncientWarrior Z_r01
+    100184: AncientWarrior Z_r02
+    100186: //RootNode
+    400000: AncientWarrior Bip01
+    400002: AncientWarrior Bone01
+    400004: AncientWarrior Bone02
+    400006: AncientWarrior Bone03
+    400008: AncientWarrior Bone04
+    400010: AncientWarrior Bone05
+    400012: AncientWarrior Bone06
+    400014: AncientWarrior Bone07
+    400016: AncientWarrior Bone08
+    400018: AncientWarrior EYE L Bone
+    400020: AncientWarrior EYE R Bone
+    400022: AncientWarrior Head
+    400024: AncientWarrior HeadNub
+    400026: AncientWarrior L Calf
+    400028: AncientWarrior L Clavicle
+    400030: AncientWarrior L Finger0
+    400032: AncientWarrior L Finger01
+    400034: AncientWarrior L Finger02
+    400036: AncientWarrior L Finger0Nub
+    400038: AncientWarrior L Finger1
+    400040: AncientWarrior L Finger11
+    400042: AncientWarrior L Finger12
+    400044: AncientWarrior L Finger1Nub
+    400046: AncientWarrior L Finger2
+    400048: AncientWarrior L Finger21
+    400050: AncientWarrior L Finger22
+    400052: AncientWarrior L Finger2Nub
+    400054: AncientWarrior L Finger3
+    400056: AncientWarrior L Finger31
+    400058: AncientWarrior L Finger32
+    400060: AncientWarrior L Finger3Nub
+    400062: AncientWarrior L Finger4
+    400064: AncientWarrior L Finger41
+    400066: AncientWarrior L Finger42
+    400068: AncientWarrior L Finger4Nub
+    400070: AncientWarrior L Foot
+    400072: AncientWarrior L Forearm
+    400074: AncientWarrior L Hand
+    400076: AncientWarrior L Thigh
+    400078: AncientWarrior L Toe0
+    400080: AncientWarrior L Toe0Nub
+    400082: AncientWarrior L UpperArm
+    400084: AncientWarrior Neck
+    400086: AncientWarrior Pelvis
+    400088: AncientWarrior R Calf
+    400090: AncientWarrior R Clavicle
+    400092: AncientWarrior R Finger0
+    400094: AncientWarrior R Finger01
+    400096: AncientWarrior R Finger02
+    400098: AncientWarrior R Finger0Nub
+    400100: AncientWarrior R Finger1
+    400102: AncientWarrior R Finger11
+    400104: AncientWarrior R Finger12
+    400106: AncientWarrior R Finger1Nub
+    400108: AncientWarrior R Finger2
+    400110: AncientWarrior R Finger21
+    400112: AncientWarrior R Finger22
+    400114: AncientWarrior R Finger2Nub
+    400116: AncientWarrior R Finger3
+    400118: AncientWarrior R Finger31
+    400120: AncientWarrior R Finger32
+    400122: AncientWarrior R Finger3Nub
+    400124: AncientWarrior R Finger4
+    400126: AncientWarrior R Finger41
+    400128: AncientWarrior R Finger42
+    400130: AncientWarrior R Finger4Nub
+    400132: AncientWarrior R Foot
+    400134: AncientWarrior R Forearm
+    400136: AncientWarrior R Hand
+    400138: AncientWarrior R Thigh
+    400140: AncientWarrior R Toe0
+    400142: AncientWarrior R Toe0Nub
+    400144: AncientWarrior R UpperArm
+    400146: AncientWarrior Spine
+    400148: AncientWarrior Spine1
+    400150: AncientWarrior Sword Bone
+    400152: AncientWarrior talk chin
+    400154: AncientWarrior talk lower lip01
+    400156: AncientWarrior talk lower lip02
+    400158: AncientWarrior talk mouth l01
+    400160: AncientWarrior talk mouth l02
+    400162: AncientWarrior talk mouth r01
+    400164: AncientWarrior talk mouth r02
+    400166: AncientWarrior talk upper lip01
+    400168: AncientWarrior talk upper lip02
+    400170: AncientWarrior X_l01
+    400172: AncientWarrior X_l02
+    400174: AncientWarrior X_r01
+    400176: AncientWarrior X_r02
+    400178: AncientWarrior Z_l01
+    400180: AncientWarrior Z_l02
+    400182: AncientWarrior Z_r01
+    400184: AncientWarrior Z_r02
+    400186: //RootNode
+    7400000: fight_defence03
+    9500000: //RootNode
+    11100000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: fight_defence03
+      takeName: AncientWarrior@fight_defence03
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AncientWarrior Bip01
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Bone05
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Bone05/AncientWarrior
+          Bone06
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Bone07
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Bone07/AncientWarrior
+          Bone08
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          L Thigh
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          L Thigh/AncientWarrior L Calf
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          L Thigh/AncientWarrior L Calf/AncientWarrior L Foot
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          L Thigh/AncientWarrior L Calf/AncientWarrior L Foot/AncientWarrior L Toe0
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          L Thigh/AncientWarrior L Calf/AncientWarrior L Foot/AncientWarrior L Toe0/AncientWarrior
+          L Toe0Nub
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          R Thigh
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          R Thigh/AncientWarrior R Calf
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          R Thigh/AncientWarrior R Calf/AncientWarrior R Foot
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          R Thigh/AncientWarrior R Calf/AncientWarrior R Foot/AncientWarrior R Toe0
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          R Thigh/AncientWarrior R Calf/AncientWarrior R Foot/AncientWarrior R Toe0/AncientWarrior
+          R Toe0Nub
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior Head
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior Head/AncientWarrior EYE L Bone
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior Head/AncientWarrior EYE R Bone
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior Head/AncientWarrior HeadNub
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior Head/AncientWarrior talk chin
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior Head/AncientWarrior talk chin/AncientWarrior
+          talk lower lip01
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior Head/AncientWarrior talk chin/AncientWarrior
+          talk lower lip01/AncientWarrior talk lower lip02
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior Head/AncientWarrior talk mouth
+          l01
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior Head/AncientWarrior talk mouth
+          l01/AncientWarrior talk mouth l02
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior Head/AncientWarrior talk mouth
+          r01
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior Head/AncientWarrior talk mouth
+          r01/AncientWarrior talk mouth r02
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior Head/AncientWarrior talk upper
+          lip01
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior Head/AncientWarrior talk upper
+          lip01/AncientWarrior talk upper lip02
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior Head/AncientWarrior X_l01
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior Head/AncientWarrior X_l01/AncientWarrior
+          X_l02
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior Head/AncientWarrior X_r01
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior Head/AncientWarrior X_r01/AncientWarrior
+          X_r02
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior Head/AncientWarrior Z_l01
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior Head/AncientWarrior Z_l01/AncientWarrior
+          Z_l02
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior Head/AncientWarrior Z_r01
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior Head/AncientWarrior Z_r01/AncientWarrior
+          Z_r02
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior Bone01
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior Bone01/AncientWarrior
+          Bone02
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior L UpperArm
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior L UpperArm/AncientWarrior
+          L Forearm
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior L UpperArm/AncientWarrior
+          L Forearm/AncientWarrior L Hand
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior L UpperArm/AncientWarrior
+          L Forearm/AncientWarrior L Hand/AncientWarrior L Finger0
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior L UpperArm/AncientWarrior
+          L Forearm/AncientWarrior L Hand/AncientWarrior L Finger0/AncientWarrior
+          L Finger01
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior L UpperArm/AncientWarrior
+          L Forearm/AncientWarrior L Hand/AncientWarrior L Finger0/AncientWarrior
+          L Finger01/AncientWarrior L Finger02
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior L UpperArm/AncientWarrior
+          L Forearm/AncientWarrior L Hand/AncientWarrior L Finger0/AncientWarrior
+          L Finger01/AncientWarrior L Finger02/AncientWarrior L Finger0Nub
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior L UpperArm/AncientWarrior
+          L Forearm/AncientWarrior L Hand/AncientWarrior L Finger1
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior L UpperArm/AncientWarrior
+          L Forearm/AncientWarrior L Hand/AncientWarrior L Finger1/AncientWarrior
+          L Finger11
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior L UpperArm/AncientWarrior
+          L Forearm/AncientWarrior L Hand/AncientWarrior L Finger1/AncientWarrior
+          L Finger11/AncientWarrior L Finger12
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior L UpperArm/AncientWarrior
+          L Forearm/AncientWarrior L Hand/AncientWarrior L Finger1/AncientWarrior
+          L Finger11/AncientWarrior L Finger12/AncientWarrior L Finger1Nub
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior L UpperArm/AncientWarrior
+          L Forearm/AncientWarrior L Hand/AncientWarrior L Finger2
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior L UpperArm/AncientWarrior
+          L Forearm/AncientWarrior L Hand/AncientWarrior L Finger2/AncientWarrior
+          L Finger21
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior L UpperArm/AncientWarrior
+          L Forearm/AncientWarrior L Hand/AncientWarrior L Finger2/AncientWarrior
+          L Finger21/AncientWarrior L Finger22
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior L UpperArm/AncientWarrior
+          L Forearm/AncientWarrior L Hand/AncientWarrior L Finger2/AncientWarrior
+          L Finger21/AncientWarrior L Finger22/AncientWarrior L Finger2Nub
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior L UpperArm/AncientWarrior
+          L Forearm/AncientWarrior L Hand/AncientWarrior L Finger3
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior L UpperArm/AncientWarrior
+          L Forearm/AncientWarrior L Hand/AncientWarrior L Finger3/AncientWarrior
+          L Finger31
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior L UpperArm/AncientWarrior
+          L Forearm/AncientWarrior L Hand/AncientWarrior L Finger3/AncientWarrior
+          L Finger31/AncientWarrior L Finger32
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior L UpperArm/AncientWarrior
+          L Forearm/AncientWarrior L Hand/AncientWarrior L Finger3/AncientWarrior
+          L Finger31/AncientWarrior L Finger32/AncientWarrior L Finger3Nub
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior L UpperArm/AncientWarrior
+          L Forearm/AncientWarrior L Hand/AncientWarrior L Finger4
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior L UpperArm/AncientWarrior
+          L Forearm/AncientWarrior L Hand/AncientWarrior L Finger4/AncientWarrior
+          L Finger41
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior L UpperArm/AncientWarrior
+          L Forearm/AncientWarrior L Hand/AncientWarrior L Finger4/AncientWarrior
+          L Finger41/AncientWarrior L Finger42
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior L Clavicle/AncientWarrior L UpperArm/AncientWarrior
+          L Forearm/AncientWarrior L Hand/AncientWarrior L Finger4/AncientWarrior
+          L Finger41/AncientWarrior L Finger42/AncientWarrior L Finger4Nub
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior Bone03
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior Bone03/AncientWarrior
+          Bone04
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior R UpperArm
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior R UpperArm/AncientWarrior
+          R Forearm
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior R UpperArm/AncientWarrior
+          R Forearm/AncientWarrior R Hand
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior R UpperArm/AncientWarrior
+          R Forearm/AncientWarrior R Hand/AncientWarrior R Finger0
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior R UpperArm/AncientWarrior
+          R Forearm/AncientWarrior R Hand/AncientWarrior R Finger0/AncientWarrior
+          R Finger01
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior R UpperArm/AncientWarrior
+          R Forearm/AncientWarrior R Hand/AncientWarrior R Finger0/AncientWarrior
+          R Finger01/AncientWarrior R Finger02
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior R UpperArm/AncientWarrior
+          R Forearm/AncientWarrior R Hand/AncientWarrior R Finger0/AncientWarrior
+          R Finger01/AncientWarrior R Finger02/AncientWarrior R Finger0Nub
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior R UpperArm/AncientWarrior
+          R Forearm/AncientWarrior R Hand/AncientWarrior R Finger1
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior R UpperArm/AncientWarrior
+          R Forearm/AncientWarrior R Hand/AncientWarrior R Finger1/AncientWarrior
+          R Finger11
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior R UpperArm/AncientWarrior
+          R Forearm/AncientWarrior R Hand/AncientWarrior R Finger1/AncientWarrior
+          R Finger11/AncientWarrior R Finger12
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior R UpperArm/AncientWarrior
+          R Forearm/AncientWarrior R Hand/AncientWarrior R Finger1/AncientWarrior
+          R Finger11/AncientWarrior R Finger12/AncientWarrior R Finger1Nub
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior R UpperArm/AncientWarrior
+          R Forearm/AncientWarrior R Hand/AncientWarrior R Finger2
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior R UpperArm/AncientWarrior
+          R Forearm/AncientWarrior R Hand/AncientWarrior R Finger2/AncientWarrior
+          R Finger21
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior R UpperArm/AncientWarrior
+          R Forearm/AncientWarrior R Hand/AncientWarrior R Finger2/AncientWarrior
+          R Finger21/AncientWarrior R Finger22
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior R UpperArm/AncientWarrior
+          R Forearm/AncientWarrior R Hand/AncientWarrior R Finger2/AncientWarrior
+          R Finger21/AncientWarrior R Finger22/AncientWarrior R Finger2Nub
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior R UpperArm/AncientWarrior
+          R Forearm/AncientWarrior R Hand/AncientWarrior R Finger3
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior R UpperArm/AncientWarrior
+          R Forearm/AncientWarrior R Hand/AncientWarrior R Finger3/AncientWarrior
+          R Finger31
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior R UpperArm/AncientWarrior
+          R Forearm/AncientWarrior R Hand/AncientWarrior R Finger3/AncientWarrior
+          R Finger31/AncientWarrior R Finger32
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior R UpperArm/AncientWarrior
+          R Forearm/AncientWarrior R Hand/AncientWarrior R Finger3/AncientWarrior
+          R Finger31/AncientWarrior R Finger32/AncientWarrior R Finger3Nub
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior R UpperArm/AncientWarrior
+          R Forearm/AncientWarrior R Hand/AncientWarrior R Finger4
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior R UpperArm/AncientWarrior
+          R Forearm/AncientWarrior R Hand/AncientWarrior R Finger4/AncientWarrior
+          R Finger41
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior R UpperArm/AncientWarrior
+          R Forearm/AncientWarrior R Hand/AncientWarrior R Finger4/AncientWarrior
+          R Finger41/AncientWarrior R Finger42
+        weight: 1
+      - path: AncientWarrior Bip01/AncientWarrior Pelvis/AncientWarrior Spine/AncientWarrior
+          Spine1/AncientWarrior Neck/AncientWarrior R Clavicle/AncientWarrior R UpperArm/AncientWarrior
+          R Forearm/AncientWarrior R Hand/AncientWarrior R Finger4/AncientWarrior
+          R Finger41/AncientWarrior R Finger42/AncientWarrior R Finger4Nub
+        weight: 1
+      - path: AncientWarrior Sword Bone
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 072d708394f500c4c8b9e769ecf0d295,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
